@@ -14,10 +14,9 @@ site_dir: 'docs'
 
 theme:
   name: 'material'
-  custom_dir: theme/
 
 extra_css:
-  - 'custom-docs.css'  
+  - '../theme/custom-docs.css'  
 
 nav:
     - Home: index.md
