@@ -1,13 +1,14 @@
 site_name: My Docs
 
-
-docs_dir: 'md'
-
+docs_dir: 'pages'
 site_dir: 'docs'
 
-
 theme:
-  name: 'mkdocs'
+  name: 'material'
+  custom_dir: theme/
+
+extra_css:
+  - 'custom-docs.css'  
 
 nav:
     - Home: index.md
