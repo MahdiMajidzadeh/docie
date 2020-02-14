@@ -21,6 +21,12 @@ jobs:
         python -m pip install --upgrade pip
         pip install mkdocs
         pip install mkdocs-material
-    - name: build
+    - name: Build
       run: |
         mkdocs build
+    - name: Commit builds
+      run: |
+        git config --global user.name 'Github Actions'
+        git config --global user.email 'mahdimajidzadeh@users.noreply.github.com'
+        git commit -am "builds"
+        git push
