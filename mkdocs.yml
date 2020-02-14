@@ -1,4 +1,13 @@
-site_name: My Docs
+site_name: داکی
+
+copyright: 'Copyright &copy; 2020 Mahdi Majidzadeh'
+
+site_url: 'https://mahdimajidzadeh.github.io/docie/'
+site_author: 'Mahdi Majidzadeh'
+
+repo_name: 'docie'
+repo_url: 'https://github.com/MahdiMajidzadeh/docie'
+
 
 docs_dir: 'pages'
 site_dir: 'docs'
