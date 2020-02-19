@@ -8,15 +8,25 @@ site_author: 'Mahdi Majidzadeh'
 repo_name: 'docie'
 repo_url: 'https://github.com/MahdiMajidzadeh/docie'
 
-
 docs_dir: 'pages'
 site_dir: 'docs'
 
 theme:
   name: 'material'
 
+plugins:
+  - search
+  - minify:
+      minify_html: true
+
+markdown_extensions:
+  - admonition
+  - meta
+  - toc:
+      permalink: true
+
 extra_css:
   - '../theme/custom-docs.css'  
 
 nav:
-    - Home: index.md
+  - Home: index.md
