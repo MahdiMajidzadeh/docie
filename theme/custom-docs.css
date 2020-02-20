@@ -177,3 +177,7 @@ button.md-icon.md-search__icon {
         float: left;
     }
 }
+
+.md-content__icon {
+    float: left;
+}
