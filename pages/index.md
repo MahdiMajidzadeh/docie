@@ -1,17 +1,18 @@
-# Welcome to MkDocs
+# داکی
 
-For full documentation visit [mkdocs.org](https://mkdocs.org).
+یک پروژه آماده از mkdocs با تم متریال و راست چین
 
-## Commands
+## نحوه استفاده
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs help` - Print this help message.
+از پروژه یک کلون بگیرید.
 
-## Project layout
+پیش نیازهای سیستم را نصب کنید.
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+شروع به کار کنید.
+
+
+
+
+
+
+

@@ -10,9 +10,16 @@ repo_url: 'https://github.com/MahdiMajidzadeh/docie'
 
 docs_dir: 'pages'
 site_dir: 'docs'
+lang: fa
 
 theme:
   name: 'material'
+  highlightjs: true
+  # custom_dir: theme
+  include_sidebar: false
+  direction: 'rtl'
+  language: 'fa'
+  font: false
 
 plugins:
   - search
@@ -22,11 +29,14 @@ plugins:
 markdown_extensions:
   - admonition
   - meta
-  - toc:
-      permalink: true
 
-extra_css:
-  - '../theme/custom-docs.css'  
+extra_css: 
+  - 'extra/style.css'  
+
+extra:
+  search:
+    language: 'en, fa'
 
 nav:
-  - Home: index.md
+  - شروع: 'index.md'
+  - پیش نیازها: 'requirement.md'

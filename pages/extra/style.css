@@ -40,3 +40,15 @@ body{
 input {
     font-family: 'estedad' !important;
 }
+
+.md-content__icon {
+    float: left;
+}
+
+.md-typeset h1 {
+    color: rgb(95, 91, 91);
+}
+
+.md-typeset h1, .md-typeset h2 {
+    font-weight: 900;
+}
