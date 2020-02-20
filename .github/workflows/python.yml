@@ -1,10 +1,12 @@
 name: MkDocs Build
 
-on: [push]
+on:
+  push:
+    branches:
+      - master
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
     strategy:
       matrix:
